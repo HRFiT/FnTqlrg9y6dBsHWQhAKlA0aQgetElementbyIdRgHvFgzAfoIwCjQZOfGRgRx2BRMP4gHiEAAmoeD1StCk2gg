@@ -1,0 +1,58 @@
+/* ========================================
+CONFLICTING BANK ACCOUNTS
+======================================== */
+.bank-account-item {
+background: rgba(255,255,255,0.05);
+backdrop-filter: blur(5px);
+padding: 10px;
+border-radius: 6px;
+margin-bottom: 8px;
+border-left: 4px solid rgba(16,185,129,0.8);
+display: block;
+gap: 8px;
+border: 1px solid rgba(255,255,255,0.1);
+}
+
+.bank-account-info h5 {
+color: #6ee7b7;
+margin-bottom: 2px;
+font-size: 0.9rem;
+}
+
+.bank-account-info p {
+color: rgba(255,255,255,0.6);
+font-size: 0.8rem;
+}
+
+.bank-detail-card {
+background: rgba(16,185,129,0.1);
+backdrop-filter: blur(5px);
+padding: 10px 12px;
+border-radius: 6px;
+margin-bottom: 8px;
+border-left: 4px solid rgba(16,185,129,0.8);
+border: 1px solid rgba(16,185,129,0.2);
+}
+
+.bank-detail-card h5 {
+color: #34d399;
+margin-bottom: 6px;
+font-size: 0.9rem;
+}
+
+.bank-detail-card p {
+color: rgba(255,255,255,0.7);
+font-size: 0.8rem;
+margin: 2px 0;
+}
+
+.all-bank-details {
+margin-top: 15px;
+border-top: 1px solid rgba(255,255,255,0.1);
+padding-top: 12px;
+}
+
+.all-bank-details h4 {
+color: #10b981;
+margin-bottom: 12px;
+}

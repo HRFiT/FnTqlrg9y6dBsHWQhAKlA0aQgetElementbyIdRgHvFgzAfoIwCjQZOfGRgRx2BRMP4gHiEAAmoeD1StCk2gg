@@ -1,0 +1,26 @@
+/* ========================================
+CONFLICTING MAIN CONTENT AREA
+======================================== */
+.main-content {
+flex: none;
+margin-left: 0;
+padding: 10px;
+min-height: auto;
+background: #f0f0f0;
+}
+
+.page-header {
+margin-bottom: 5px;
+}
+
+.page-header h2 {
+color: black;
+font-size: 1.2rem;
+margin-bottom: 0;
+text-shadow: none;
+}
+
+.page-header p {
+color: #333;
+font-size: 0.8rem;
+}

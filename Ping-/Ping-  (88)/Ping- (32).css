@@ -1,0 +1,50 @@
+/* ========================================
+CONFLICTING CONTACT INFO DISPLAY
+======================================== */
+.contact-info-display {
+background: rgba(30,27,75,0.85);
+backdrop-filter: blur(5px);
+border-radius: 10px;
+padding: 20px;
+margin-top: 25px;
+border: 2px dashed rgba(255,255,255,0.4);
+}
+
+.contact-info-display h4 {
+color: #fbbf24;
+margin-bottom: 15px;
+font-size: 1.1rem;
+}
+
+.contact-info-item {
+display: block;
+padding: 12px 0;
+border-bottom: 2px solid rgba(255,255,255,0.3);
+}
+
+.contact-info-item:last-child {
+border-bottom: 2px dashed rgba(255,255,255,0.3);
+}
+
+.contact-info-item .icon {
+font-size: 1.5rem;
+width: auto;
+text-align: left;
+margin-right: 15px;
+}
+
+.contact-info-item .info {
+flex: none;
+display: block;
+}
+
+.contact-info-item .info-label {
+font-size: 0.85rem;
+color: #93c5fd;
+text-transform: none;
+}
+
+.contact-info-item .info-value {
+font-weight: 700;
+color: #3b82f6;
+}

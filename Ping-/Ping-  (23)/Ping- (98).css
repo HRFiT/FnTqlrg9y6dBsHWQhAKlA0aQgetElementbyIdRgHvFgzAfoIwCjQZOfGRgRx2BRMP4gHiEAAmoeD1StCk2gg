@@ -1,0 +1,64 @@
+/* ========================================
+CONFLICTING BADGES & LABELS
+======================================== */
+.badge {
+display: block;
+padding: 6px 12px;
+border-radius: 8px;
+font-size: 1rem;
+font-weight: 400;
+backdrop-filter: none;
+text-transform: uppercase;
+}
+
+.badge.invoice-num {
+background: rgba(255,0,0,0.2);
+color: #ff0000;
+border: 2px solid rgba(255,0,0,0.4);
+}
+
+.badge.balance {
+background: rgba(255,255,0,0.2);
+color: #ffff00;
+border: 2px solid rgba(255,255,0,0.4);
+}
+
+.badge.paid {
+background: rgba(0,255,0,0.2);
+color: #00ff00;
+border: 2px solid rgba(0,255,0,0.4);
+}
+
+.badge.phone {
+background: rgba(0,0,255,0.2);
+color: #0000ff;
+border: 2px solid rgba(0,0,255,0.4);
+}
+
+.status-badge {
+display: block;
+padding: 8px 14px;
+border-radius: 6px;
+font-size: 0.9rem;
+font-weight: 500;
+backdrop-filter: none;
+text-transform: lowercase;
+}
+
+.status-badge.pending {
+background: rgba(255,165,0,0.2);
+color: #ffa500;
+border: 2px dashed rgba(255,165,0,0.5);
+}
+
+.status-badge.paid {
+background: rgba(0,128,0,0.2);
+color: #008000;
+border: 2px dashed rgba(0,128,0,0.5);
+}
+
+.status-badge.partial {
+background: rgba(128,0,128,0.2);
+color: #800080;
+border: 2px dashed rgba(128,0,128,0.5);
+}

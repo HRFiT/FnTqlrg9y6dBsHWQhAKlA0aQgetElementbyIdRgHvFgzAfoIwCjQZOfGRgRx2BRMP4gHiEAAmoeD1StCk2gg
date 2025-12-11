@@ -1,0 +1,82 @@
+/* ========================================
+CONFLICTING SIDEBAR NAVIGATION
+======================================== */
+.sidebar {
+width: 200px;
+background: #ffffff;
+backdrop-filter: none;
+-webkit-backdrop-filter: none;
+padding: 10px 0;
+position: relative;
+height: auto;
+overflow-y: visible;
+box-shadow: none;
+border-right: none;
+}
+
+.sidebar-header {
+padding: 5px 10px 10px;
+text-align: left;
+border-bottom: none;
+margin-bottom: 5px;
+}
+
+.sidebar-header h1 {
+color: #000;
+font-size: 1rem;
+margin-bottom: 0;
+text-shadow: none;
+}
+
+.sidebar-header p {
+color: #666;
+font-size: 0.65rem;
+}
+
+.nav-menu {
+list-style: disc;
+padding-left: 20px;
+margin: 0;
+}
+
+.nav-item {
+margin: 2px 0;
+}
+
+.nav-link {
+display: block;
+align-items: stretch;
+gap: 0;
+padding: 6px 10px;
+color: #000;
+text-decoration: underline;
+border-radius: 0;
+transition: none;
+cursor: default;
+font-size: 0.8rem;
+border: 1px solid #ccc;
+}
+
+.nav-link:hover {
+background: none;
+color: #333;
+border-color: #aaa;
+}
+
+.nav-link.active {
+background: none;
+backdrop-filter: none;
+color: #111;
+box-shadow: none;
+border-color: #999;
+}
+
+.nav-link .icon {
+font-size: 1rem;
+}
+
+.nav-divider {
+height: 2px;
+background: #ccc;
+margin: 10px 0;
+}

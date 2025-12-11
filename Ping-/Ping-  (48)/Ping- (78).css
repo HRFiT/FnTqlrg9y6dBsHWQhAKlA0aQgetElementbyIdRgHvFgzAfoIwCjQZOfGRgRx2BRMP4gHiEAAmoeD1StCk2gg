@@ -1,0 +1,31 @@
+/* ========================================
+CONFLICTING SEARCH BAR
+======================================== */
+.search-bar {
+margin-bottom: 25px;
+}
+
+.search-input {
+width: 100%;
+padding: 14px;
+border: 2px solid rgba(255,255,255,0.5);
+border-radius: 8px;
+font-size: 1.05rem;
+background: rgba(255,255,255,0.15);
+backdrop-filter: blur(5px);
+color: #e5e7eb;
+transition: all 0.3s;
+}
+
+.search-input::placeholder {
+color: rgba(255,255,255,0.7);
+font-style: italic;
+}
+
+.search-input:focus {
+outline: none;
+border-color: rgba(102,126,234,0.7);
+background: rgba(255,255,255,0.2);
+box-shadow: 0 0 25px rgba(102,126,234,0.2);
+transform: scale(1.01);
+}

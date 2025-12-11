@@ -1,0 +1,67 @@
+/* ========================================
+CONFLICTING TABLE STYLES
+======================================== */
+.table-responsive {
+overflow: visible;
+margin-top: 0;
+}
+
+.data-table {
+width: auto;
+border-collapse: collapse;
+border-spacing: 0;
+background: #fff;
+backdrop-filter: none;
+border-radius: 0;
+overflow: visible;
+border: 2px dashed red;
+}
+
+.data-table thead {
+background: none;
+backdrop-filter: none;
+}
+
+.data-table thead th {
+padding: 5px 8px;
+text-align: center;
+color: black;
+font-weight: normal;
+font-size: 0.8rem;
+text-transform: none;
+letter-spacing: 0;
+border-bottom: none;
+}
+
+.data-table tbody tr {
+transition: none;
+border-bottom: none;
+}
+
+.data-table tbody tr:hover {
+background: transparent;
+transform: none;
+}
+
+.data-table tbody tr:last-child {
+border-bottom: none;
+}
+
+.data-table tbody td {
+padding: 6px;
+color: red;
+font-size: 0.8rem;
+vertical-align: top;
+}
+
+.data-table tbody td strong {
+color: red;
+font-weight: normal;
+}
+
+/* Action Buttons in Table */
+.action-buttons {
+display: block;
+gap: 0;
+flex-wrap: nowrap;
+}

@@ -1,0 +1,84 @@
+/* ========================================
+CONFLICTING MISC COMPONENTS
+======================================== */
+.no-documents {
+text-align: left;
+padding: 20px 10px;
+color: rgba(255,255,255,0.9);
+font-style: italic;
+}
+
+.tab-content {
+display: block;
+padding: 15px;
+background: rgba(0,0,0,0.05);
+border-radius: 4px;
+}
+
+.tab-content.active {
+display: none;
+}
+
+.mobile-menu-btn {
+display: block;
+top: 20px;
+left: 20px;
+background: rgba(220,53,69,0.85);
+border-radius: 50%;
+color: #fff;
+padding: 12px 18px;
+font-size: 1.4rem;
+border: 2px solid rgba(255,255,255,0.4);
+}
+
+.download-section {
+flex-direction: column;
+gap: 15px;
+margin-bottom: 10px;
+}
+
+.invoice-dates-box {
+background: rgba(220,53,69,0.1);
+border: 1px solid rgba(220,53,69,0.3);
+border-radius: 6px;
+padding: 12px;
+margin: 5px 0;
+backdrop-filter: blur(5px);
+}
+
+.invoice-dates-box p {
+font-size: 0.9rem;
+color: rgba(255,255,255,0.8);
+}
+
+.bulk-actions {
+background: rgba(255,193,7,0.15);
+border: 1px solid rgba(255,193,7,0.4);
+border-radius: 4px;
+padding: 12px;
+backdrop-filter: blur(5px);
+}
+
+.bulk-actions h4 {
+color: rgba(255,255,255,0.85);
+margin-bottom: 10px;
+font-size: 1rem;
+}
+
+.bulk-actions-buttons {
+justify-content: flex-start;
+gap: 5px;
+}
+
+.page-break {
+page-break-after: auto;
+margin-bottom: 20px;
+border-bottom: 1px dotted rgba(255,255,255,0.2);
+padding-bottom: 15px;
+}
+
+.backup-section {
+flex-direction: column;
+gap: 8px;
+margin-top: 10px;
+}

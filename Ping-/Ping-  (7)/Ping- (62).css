@@ -1,0 +1,82 @@
+/* ========================================
+CONFLICTING FORM STYLES
+======================================== */
+.form-grid {
+display: flex;
+flex-wrap: wrap;
+gap: 5px;
+margin-bottom: 0;
+}
+
+.form-group {
+display: block;
+flex-direction: row;
+position: static;
+margin-bottom: 0;
+}
+
+.form-group label {
+font-weight: 300;
+margin-bottom: 0;
+color: black;
+font-size: 1.2rem;
+text-transform: uppercase;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+padding: 5px;
+border: 2px dotted #ff0000;
+border-radius: 0;
+font-size: 1.1rem;
+transition: none;
+background: #fff;
+backdrop-filter: none;
+color: #000;
+font-family: monospace;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+color: #333;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+outline: 2px solid red;
+border-color: #000;
+background: #eee;
+box-shadow: none;
+}
+
+.form-group textarea {
+resize: none;
+min-height: 30px;
+}
+
+.form-group input:disabled,
+.form-group input:read-only {
+background: #ccc;
+cursor: default;
+color: #666;
+}
+
+.form-group.with-icon .input-icon {
+position: static;
+left: auto;
+top: auto;
+color: red;
+font-size: 2rem;
+}
+
+.form-group.with-icon input,
+.form-group.with-icon textarea {
+padding-left: 5px;
+}
+
+.form-group select option {
+background: #fff;
+color: black;
+}
