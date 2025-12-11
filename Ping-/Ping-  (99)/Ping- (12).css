@@ -1,0 +1,26 @@
+
+/* ========================================
+MAIN CONTENT AREA
+======================================== */
+.main-content {
+flex: 1;
+margin-left: 240px;
+padding: 30px;
+min-height: 100vh;
+}
+
+.page-header {
+margin-bottom: 25px;
+}
+
+.page-header h2 {
+color: white;
+font-size: 1.8rem;
+margin-bottom: 5px;
+text-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.page-header p {
+color: rgba(255,255,255,0.8);
+font-size: 0.9rem;
+}

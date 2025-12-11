@@ -1,0 +1,28 @@
+
+/* ========================================
+SEARCH BAR
+======================================== */
+.search-bar {
+margin-bottom: 20px;
+}
+
+.search-input {
+width: 100%;
+padding: 12px;
+border: 1px solid rgba(255,255,255,0.3);
+border-radius: 6px;
+font-size: 1rem;
+background: rgba(255,255,255,0.1);
+backdrop-filter: blur(10px);
+color: white;
+}
+
+.search-input::placeholder {
+color: rgba(255,255,255,0.5);
+}
+
+.search-input:focus {
+outline: none;
+border-color: rgba(255,255,255,0.6);
+box-shadow: 0 0 20px rgba(255,255,255,0.1);
+}

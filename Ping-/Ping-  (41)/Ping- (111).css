@@ -1,0 +1,49 @@
+
+/* ========================================
+SUGGESTIONS & AUTOCOMPLETE
+======================================== */
+.suggestions {
+position: absolute;
+top: 100%;
+left: 0;
+right: 0;
+background: rgb(30, 27, 75);
+backdrop-filter: blur(20px);
+border: 1px solid rgba(255, 255, 255, 0.953);
+border-top: none;
+border-radius: 0 0 6px 6px;
+max-height: 250px;
+overflow-y: auto;
+z-index: 1000;
+box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
+
+.suggestion-item {
+padding: 12px;
+cursor: pointer;
+border-bottom: 1px solid rgba(255,255,255,0.1);
+transition: background 0.2s;
+color: white;
+}
+
+.suggestion-item:hover {
+background: rgba(255,255,255,0.1);
+}
+
+.suggestion-item .customer-name {
+font-weight: 600;
+color: white;
+margin-bottom: 4px;
+}
+
+.suggestion-item .customer-phone {
+font-size: 0.8rem;
+color: rgba(255,255,255,0.7);
+margin-bottom: 4px;
+}
+
+.suggestion-item .customer-badges {
+display: flex;
+gap: 6px;
+flex-wrap: wrap;
+}

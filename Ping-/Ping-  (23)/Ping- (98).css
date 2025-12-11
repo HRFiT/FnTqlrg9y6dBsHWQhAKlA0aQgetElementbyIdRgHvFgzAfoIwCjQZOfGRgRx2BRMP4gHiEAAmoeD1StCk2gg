@@ -1,0 +1,63 @@
+
+/* ========================================
+BADGES & LABELS
+======================================== */
+.badge {
+display: inline-block;
+padding: 2px 8px;
+border-radius: 3px;
+font-size: 0.7rem;
+font-weight: 600;
+backdrop-filter: blur(5px);
+}
+
+.badge.invoice-num {
+background: rgba(59,130,246,0.3);
+color: #93c5fd;
+border: 1px solid rgba(59,130,246,0.5);
+}
+
+.badge.balance {
+background: rgba(245,158,11,0.3);
+color: #fcd34d;
+border: 1px solid rgba(245,158,11,0.5);
+}
+
+.badge.paid {
+background: rgba(16,185,129,0.3);
+color: #6ee7b7;
+border: 1px solid rgba(16,185,129,0.5);
+}
+
+.badge.phone {
+background: rgba(34,197,94,0.3);
+color: #86efac;
+border: 1px solid rgba(34,197,94,0.5);
+}
+
+.status-badge {
+display: inline-block;
+padding: 3px 10px;
+border-radius: 3px;
+font-size: 0.75rem;
+font-weight: 600;
+backdrop-filter: blur(5px);
+}
+
+.status-badge.pending {
+background: rgba(245,158,11,0.3);
+color: #fcd34d;
+border: 1px solid rgba(245,158,11,0.5);
+}
+
+.status-badge.paid {
+background: rgba(16,185,129,0.3);
+color: #6ee7b7;
+border: 1px solid rgba(16,185,129,0.5);
+}
+
+.status-badge.partial {
+background: rgba(139,92,246,0.3);
+color: #c4b5fd;
+border: 1px solid rgba(139,92,246,0.5);
+}

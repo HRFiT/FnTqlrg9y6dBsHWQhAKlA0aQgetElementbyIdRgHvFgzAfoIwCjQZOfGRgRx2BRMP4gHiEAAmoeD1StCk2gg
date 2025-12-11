@@ -1,0 +1,16 @@
+/* ========================================
+BASE STYLES & RESET
+======================================== */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+background: url('https://static.wixstatic.com/media/0a13f5_c67d95c70723474ebb15de67904d2e63~mv2.jpg') no-repeat center center fixed;
+background-size: cover;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin: 0;
+padding: 0;
+}

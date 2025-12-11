@@ -1,0 +1,32 @@
+
+/* ========================================
+PRINT STYLES
+======================================== */
+@media print {
+body {
+background: white;
+}
+
+.sidebar,
+.mobile-menu-btn,
+.bulk-actions,
+.preview-actions,
+.close-preview,
+.customer-search-overlay {
+display: none !important;
+}
+
+.main-content {
+margin-left: 0;
+}
+
+.preview-content {
+margin: 0;
+padding: 0;
+box-shadow: none;
+}
+
+.page-break {
+page-break-after: always;
+}
+}

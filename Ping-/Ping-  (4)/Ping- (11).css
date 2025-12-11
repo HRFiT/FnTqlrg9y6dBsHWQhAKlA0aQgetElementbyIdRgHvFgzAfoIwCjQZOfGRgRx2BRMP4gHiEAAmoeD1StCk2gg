@@ -1,0 +1,64 @@
+
+/* ========================================
+DATE FILTERS & CHARTS
+======================================== */
+.date-filter-section {
+background: rgba(255,255,255,0.1);
+backdrop-filter: blur(10px);
+padding: 15px;
+border-radius: 6px;
+margin-bottom: 20px;
+display: flex;
+gap: 10px;
+align-items: center;
+flex-wrap: wrap;
+border: 1px solid rgba(255,255,255,0.2);
+}
+
+.date-filter-section label {
+font-weight: 600;
+color: white;
+font-size: 0.85rem;
+}
+
+.date-filter-section input[type="date"] {
+padding: 8px 12px;
+border: 1px solid rgba(255,255,255,0.3);
+border-radius: 4px;
+font-size: 0.85rem;
+background: rgba(255,255,255,0.1);
+color: white;
+}
+
+.current-period-badge {
+background: rgba(255,255,255,0.2);
+backdrop-filter: blur(10px);
+color: white;
+padding: 8px 15px;
+border-radius: 4px;
+font-weight: 600;
+font-size: 0.8rem;
+border: 1px solid rgba(255,255,255,0.3);
+}
+
+.chart-container {
+background: rgba(255,255,255,0.15);
+backdrop-filter: blur(20px);
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+margin-bottom: 20px;
+border: 1px solid rgba(255,255,255,0.2);
+}
+
+.chart-container h4 {
+color: white;
+margin-bottom: 15px;
+font-size: 1rem;
+text-align: center;
+}
+
+.chart-wrapper {
+position: relative;
+height: 250px;
+}

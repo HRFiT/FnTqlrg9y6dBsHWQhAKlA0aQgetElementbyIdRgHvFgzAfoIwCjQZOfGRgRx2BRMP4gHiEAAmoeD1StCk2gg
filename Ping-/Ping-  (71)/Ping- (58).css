@@ -1,0 +1,47 @@
+
+
+/* ========================================
+DASHBOARD STATS
+======================================== */
+.stats-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+gap: 10px;
+margin-bottom: 20px;
+}
+
+.stat-card {
+background: rgba(255,255,255,0.1);
+backdrop-filter: blur(10px);
+padding: 12px;
+border-radius: 6px;
+box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+position: relative;
+overflow: hidden;
+border: 1px solid rgba(255,255,255,0.2);
+transition: all 0.3s;
+}
+
+.stat-card:hover {
+transform: translateY(-3px);
+box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+.stat-card .label {
+color: rgba(255,255,255,0.7);
+font-size: 0.7rem;
+text-transform: uppercase;
+margin-bottom: 2px;
+}
+
+.stat-card .value {
+font-size: 1.2rem;
+font-weight: bold;
+color: white;
+}
+
+.stat-card .amount {
+font-size: 0.75rem;
+margin-top: 2px;
+color: rgba(255,255,255,0.8);
+}

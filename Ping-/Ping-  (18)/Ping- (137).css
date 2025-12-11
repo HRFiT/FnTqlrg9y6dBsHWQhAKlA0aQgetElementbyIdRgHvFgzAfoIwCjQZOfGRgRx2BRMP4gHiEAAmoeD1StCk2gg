@@ -1,0 +1,56 @@
+
+/* ========================================
+FILTER TYPE SELECTOR & PROGRESS
+======================================== */
+
+.filter-section {
+background: rgba(102,126,234,0.15);
+backdrop-filter: blur(10px);
+border: 1px solid rgba(102,126,234,0.4);
+border-radius: 6px;
+padding: 15px;
+margin-bottom: 20px;
+}
+
+.filter-row {
+display: flex;
+gap: 15px;
+align-items: flex-end;
+flex-wrap: wrap;
+}
+
+.filter-group {
+display: flex;
+flex-direction: column;
+gap: 5px;
+}
+
+.filter-group label {
+font-size: 0.85rem;
+font-weight: 600;
+color: white;
+}
+
+.filter-group input[type="date"],
+.filter-group select {
+padding: 8px 12px;
+border: 1px solid rgba(255,255,255,0.3);
+border-radius: 4px;
+font-size: 0.9rem;
+background: rgba(255,255,255,0.1);
+backdrop-filter: blur(5px);
+color: white;
+min-width: 150px;
+}
+
+.filter-group select option {
+background: #1e1b4b;
+color: white;
+}
+
+.filter-group input[type="date"]:focus,
+.filter-group select:focus {
+outline: none;
+border-color: rgba(255,255,255,0.6);
+background: rgba(255,255,255,0.15);
+}

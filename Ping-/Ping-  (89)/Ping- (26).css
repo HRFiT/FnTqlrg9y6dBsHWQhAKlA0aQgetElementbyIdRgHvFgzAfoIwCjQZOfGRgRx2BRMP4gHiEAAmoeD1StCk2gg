@@ -1,0 +1,73 @@
+
+/* ========================================
+PAYMENT & ALERT SECTIONS
+======================================== */
+.payment-section {
+background: rgba(16,185,129,0.15);
+border: 1px solid rgba(16,185,129,0.4);
+border-radius: 6px;
+padding: 15px;
+margin: 15px 0;
+backdrop-filter: blur(10px);
+}
+
+.payment-section h4 {
+color: #6ee7b7;
+margin-bottom: 12px;
+}
+
+.alert-box {
+padding: 12px 15px;
+border-radius: 4px;
+margin-bottom: 15px;
+display: flex;
+align-items: center;
+gap: 10px;
+font-size: 0.9rem;
+backdrop-filter: blur(10px);
+}
+
+.alert-box.warning {
+background: rgba(245,158,11,0.2);
+border: 1px solid rgba(245,158,11,0.5);
+color: #fcd34d;
+}
+
+.alert-box.success {
+background: rgba(16,185,129,0.2);
+border: 1px solid rgba(16,185,129,0.5);
+color: #6ee7b7;
+}
+
+.customer-filter-section {
+background: rgba(102,126,234,0.15);
+border: 1px solid rgba(102,126,234,0.4);
+border-radius: 6px;
+padding: 15px;
+margin-bottom: 20px;
+backdrop-filter: blur(10px);
+transition: all 0.3s;
+}
+
+.customer-filter-section:hover {
+background: rgba(102,126,234,0.25);
+border-color: rgba(102,126,234,0.6);
+transform: scale(1.01);
+}
+
+.customer-filter-section h4 {
+color: white;
+margin-bottom: 12px;
+}
+
+.filtered-invoice-info {
+background: rgba(102,126,234,0.2);
+border-radius: 4px;
+padding: 15px;
+margin-top: 15px;
+}
+
+.filtered-invoice-info h5 {
+color: white;
+margin-bottom: 10px;
+}

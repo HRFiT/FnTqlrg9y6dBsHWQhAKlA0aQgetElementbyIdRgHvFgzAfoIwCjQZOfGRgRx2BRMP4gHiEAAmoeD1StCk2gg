@@ -1,0 +1,85 @@
+
+/* ========================================
+FORM STYLES
+======================================== */
+.form-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+gap: 15px;
+margin-bottom: 15px;
+}
+
+.form-group {
+display: flex;
+flex-direction: column;
+position: relative;
+}
+
+.form-group label {
+font-weight: 600;
+margin-bottom: 6px;
+color: white;
+font-size: 0.9rem;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+padding: 10px;
+border: 1px solid rgba(255,255,255,0.3);
+border-radius: 4px;
+font-size: 0.95rem;
+transition: all 0.3s;
+font-family: inherit;
+background: rgba(255,255,255,0.1);
+backdrop-filter: blur(5px);
+color: white;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+color: rgba(255,255,255,0.5);
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+outline: none;
+border-color: rgba(255,255,255,0.6);
+background: rgba(255,255,255,0.15);
+box-shadow: 0 0 20px rgba(255,255,255,0.1);
+}
+
+.form-group textarea {
+resize: vertical;
+min-height: 70px;
+}
+
+.form-group input:disabled,
+.form-group input:read-only {
+background: rgba(255,255,255,0.05);
+cursor: not-allowed;
+color: rgba(255,255,255,0.7);
+}
+
+.form-group.with-icon {
+position: relative;
+}
+
+.form-group.with-icon .input-icon {
+position: absolute;
+left: 12px;
+top: 38px;
+color: rgba(255,255,255,0.7);
+font-size: 1.1rem;
+}
+
+.form-group.with-icon input,
+.form-group.with-icon textarea {
+padding-left: 40px;
+}
+
+.form-group select option {
+background: #1e1b4b;
+color: white;
+}

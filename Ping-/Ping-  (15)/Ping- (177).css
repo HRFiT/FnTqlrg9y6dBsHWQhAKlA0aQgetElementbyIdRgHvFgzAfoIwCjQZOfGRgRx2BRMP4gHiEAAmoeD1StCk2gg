@@ -1,0 +1,108 @@
+
+/* ========================================
+RESPONSIVE DESIGN
+======================================== */
+@media (max-width: 900px) {
+.mobile-menu-btn {
+display: block;
+}
+
+.sidebar {
+transform: translateX(-100%);
+transition: transform 0.3s;
+}
+
+.sidebar.open {
+transform: translateX(0);
+}
+
+.main-content {
+margin-left: 0;
+padding: 70px 15px 20px;
+}
+
+.form-grid {
+grid-template-columns: 1fr;
+}
+
+.item-row {
+grid-template-columns: 1fr;
+}
+
+.info-grid {
+grid-template-columns: 1fr;
+}
+
+.earnings-deductions-grid {
+grid-template-columns: 1fr;
+}
+
+.stats-grid {
+grid-template-columns: repeat(3, 1fr);
+}
+
+.customer-search-modal {
+padding: 30px 20px 20px 20px;
+max-width: 95%;
+max-height: 90vh;
+}
+
+.customer-search-modal h3 {
+font-size: 1.3rem;
+}
+
+.data-table {
+font-size: 0.85rem;
+}
+
+.data-table thead th,
+.data-table tbody td {
+padding: 8px 6px;
+}
+
+.card-header-actions {
+flex-direction: column;
+align-items: stretch;
+}
+
+.action-buttons {
+justify-content: center;
+}
+}
+
+@media (max-width: 600px) {
+.stats-grid {
+grid-template-columns: repeat(2, 1fr);
+}
+
+.data-table thead {
+display: none;
+}
+
+.data-table tbody tr {
+display: block;
+margin-bottom: 15px;
+border: 1px solid rgba(255,255,255,0.2);
+border-radius: 6px;
+padding: 10px;
+}
+
+.data-table tbody td {
+display: flex;
+justify-content: space-between;
+padding: 8px;
+border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.data-table tbody td:last-child {
+border-bottom: none;
+}
+
+.data-table tbody td::before {
+content: attr(data-label);
+font-weight: 600;
+text-transform: uppercase;
+font-size: 0.75rem;
+color: rgba(255,255,255,0.7);
+}
+}
